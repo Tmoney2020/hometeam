@@ -3,10 +3,90 @@
 }
 
 html {
-  height: 100%;
+  background: url('https://hamptonlakebb.com/wp-content/uploads//2017/08/2017FloridaGatorsHomeGames.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 body {
   margin: 0;
+}
+
+h1 {
+  text-align: center;
+  font-family: Monospace;
+  margin: 0 0 3rem 0;
+  color: rgb(209, 199, 199);
+  font-size: 50px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+section {
+  min-width: 20rem;
+  border: thin solid #7c7c7c;
+  border-radius: 0.3rem;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: rgb(250, 70, 22);
+}
+
+section h2, section p {
+  text-align: center;
+}
+
+section h3 {
+  margin: 1rem 0;
+  font-family: Monospace;
+  font-size: 3rem;
+}
+
+fieldset {
+  padding-left: 0;
+  padding-right: 0;
+  border: none;
+}
+
+fieldset input {
+  padding: 0.5rem;
+}
+
+fieldset i {
+  margin: 0 0.2rem;
+}
+
+fieldset i.add {
+  color: rgb(0, 33, 165)
+}
+
+fieldset i.subtract {
+  color: black;
+}
+
+.resetButton {
+  border: 1px solid black;
+  border-radius: .5rem;
+  min-width: 5rem;
+  display: flex;
+  justify-content: center;
+  background-color: orange;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  min-width: 100%;
   min-height: 100%;
 }

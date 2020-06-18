@@ -3,12 +3,55 @@
   <head lang="en">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Hometeam</title>
+    <title>Scoreboard</title>
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="stylesheet" href="/screen.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1 class="hello-world"></h1>
+    <header>
+      <h1>My Score Board</h1>
+    </header>
+    <main>
+      <img
+        id="img"
+        src="https://i.imgur.com/vIf0lAD.gif?1"
+        style="display: none;"
+      />
+      <section class="team1">
+        <h2 id="values">Team 1</h2>
+        <h3 class="teamOne">0</h3>
+        <fieldset>
+          <input class="one" type="text" placeholder="Name" />
+        </fieldset>
+
+        <fieldset>
+          <i class="add fas fa-2x fa-plus-circle"></i>
+          <i class="subtract fas fa-2x fa-minus-circle"></i>
+        </fieldset>
+      </section>
+
+      <section class="team2">
+        <h2 class="valuesTwo">Team 2</h2>
+        <h3 class="teamTwo">0</h3>
+        <fieldset>
+          <input class="two" type="text" placeholder="Name" />
+        </fieldset>
+        <fieldset>
+          <i class="add fas fa-2x fa-plus-circle"></i>
+          <i class="subtract fas fa-2x fa-minus-circle"></i>
+        </fieldset>
+      </section>
+    </main>
+    <footer>
+      <div class="resetButton">
+        <p>Reset</p>
+      </div>
+    </footer>
+
     <script src="/main.js" charset="utf-8"></script>
   </body>
 </html>
